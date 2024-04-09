@@ -1,0 +1,241 @@
+Here's a complete commands.html file with the command name highlighting style:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Commands - Your Bot</title>
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Command name highlighting style */
+        .command-name {
+            background-color: #7289da;
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Astrum BOT - Discord Bot</title>
+    <link rel="stylesheet" href="assets/css/bulma.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/js/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand mt-2 mb-2">
+            <a class="navbar-item" href="index.html">
+                <strong>Astrum BOT</strong>
+            </a>
+            <a role="button" class="navbar-burger has-text-white" data-target="navMenu" aria-label="menu"
+                aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="index.html#" class="navbar-item is-tab">Home</a>
+                <a href="index.html#features" class="navbar-item is-tab">Features</a>
+            </div>
+            <div class="navbar-end">
+                <a href="https://discord.gg/NwWze8kw" class="navbar-item is-tab" target="_blank">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="https://github.com/spreadSheets600" class="navbar-item is-tab" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            </a>
+        </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Commands Section Start -->
+    <section class="section mt-6">
+        <div class="has-text-centered">
+            <h1 class="title lined">Bot Commands</h1>
+            <div class="line line-center blurple"></div>
+        </div>
+
+        <!-- Command List Start -->
+        <div class="command-list mt-6">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div class="command-item">
+                        <div class="command-name">/<span class="highlight">ping</span></div>
+                        <div class="command-description">Sends Bot's Latency</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/<span class="highlight">botinfo</span></div>
+                        <div class="command-description">Sends Information About The Bot</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/afk <span class="highlight">[message]</span></div>
+                        <div class="command-description">Sets Your Stautus As AFK</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/unafk <span class="highlight"></span></div>
+                        <div class="command-description">Removes Your Status From AFK</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/8ball <span class="highlight">[question]</span></div>
+                        <div class="command-description">Ask The 8ball A Question</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/roll <span class="highlight">[num1][num2]</span></div>
+                        <div class="command-description">Roll Between Two Numbers</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/kick <span class="highlight">[user]</span></div>
+                        <div class="command-description">Kick A User From The Server</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/delete <span class="highlight">[number]</span></div>
+                        <div class="command-description">Deletes The Messages</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/userinfo <span class="highlight">[user]</span></div>
+                        <div class="command-description">Sends Information About A User</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/meme <span class="highlight"></span></div>
+                        <div class="command-description">Sends A Random Meme</div>
+                    </div>
+
+                    <div class="command-item">
+                        <div class="command-name">/quote <span class="highlight"></span></div>
+                        <div class="command-description">Sends A Random Quote</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/fact <span class="highlight"></span></div>
+                        <div class="command-description">Sends A Random Fact</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/customquote <span class="highlight"></span></div>
+                        <div class="command-description">Create Your Custom Quote</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/manga <span class="highlight"></span></div>
+                        <div class="command-description">Get Information About A Manga</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/watch <span class="highlight"></span></div>
+                        <div class="command-description">Get Streaming Link To Watch Anime</div>
+                    </div>
+
+                    <!-- Add more commands here -->
+                </div>
+                <div class="column is-half">
+                    <div class="command-item">
+                        <div class="command-name">/weather <span class="highlight">[location]</span></div>
+                        <div class="command-description">Get The Weather Of A Location</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/time</div>
+                        <div class="command-description">Get The Current Time Of A Location</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/reminder <span class="highlight">[time] [message]</span></div>
+                        <div class="command-description">Set A Reminder For A Specific Time</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/hug <span class="highlight">[user]</span></div>
+                        <div class="command-description">Hug Another User</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/slap <span class="highlight">[user]</span></div>
+                        <div class="command-description">Slap Another User</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/coinflip <span class="highlight"></span></div>
+                        <div class="command-description">Flip A Coin</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/rps <span class="highlight">[input]</span></div>
+                        <div class="command-description">Play Rock Paper Siccors</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/ban <span class="highlight">[user]</span></div>
+                        <div class="command-description">Bans A User From The Server</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/unban <span class="highlight">[user]</span></div>
+                        <div class="command-description">Unban A User From The Server</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/serverinfo <span class="highlight"></span></div>
+                        <div class="command-description">Sends Server Information</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/avatar <span class="highlight">[user]</span></div>
+                        <div class="command-description">Sends Users Avatar</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/joke <span class="highlight"></span></div>
+                        <div class="command-description">Sends A Random Joke</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/meaning <span class="highlight"></span></div>
+                        <div class="command-description">Get Meaning Of A Word</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/anisearch <span class="highlight"></span></div>
+                        <div class="command-description">Get Information About An Anime</div>
+                    </div>
+                    <div class="command-item">
+                        <div class="command-name">/topanime <span class="highlight"></span></div>
+                        <div class="command-description">Get The Trending Anime</div>
+                    </div>
+                    <!-- Add more commands here -->
+                </div>
+            </div>
+        </div>
+        <!-- Command List End -->
+
+    </section>
+    <!-- Commands Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer bg-base">
+        <div class="content has-text-centered has-text-white">
+            <div class="mb-2">
+                <a href="https://discord.gg/NwWze8kw" class="has-text-white" target="_blank">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                &nbsp; &nbsp;
+                <a href="https://github.com/spreadSheets600" class="has-text-white" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <p>
+            <p>
+                <span class="has-text-weight-bold" style="font-size: 1.4rem;">Astrum BOT Bot</span>
+                <br />
+                &copy; <span id="cp-year"></span>2024 Copyright <br>SpreadSheets600 <br />
+            </p>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+</body>
+
+</html>

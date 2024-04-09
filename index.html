@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Astrum BOT - Discord Bot</title>
+  <link rel="stylesheet" href="assets/css/bulma.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="assets/js/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand mt-2 mb-2">
+      <a class="navbar-item" href="index.html">
+        <strong>Astrum BOT</strong>
+      </a>
+      <a role="button" class="navbar-burger has-text-white" data-target="navMenu" aria-label="menu"
+        aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="index.html#" class="navbar-item is-tab">Home</a>
+        <a href="index.html#features" class="navbar-item is-tab">Features</a>
+        <a href="commands.html" class="navbar-item is-tab">Commands</a>
+      </div>
+      <div class="navbar-end">
+        <a href="https://discord.gg/NwWze8kw" class="navbar-item is-tab" target="_blank">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+        <a href="https://github.com/spreadSheets600" class="navbar-item is-tab" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start -->
+  <section class="hero bg-base is-fullheight">
+    <div class="hero-body">
+      <div class="">
+        <div class="columns">
+          <div class="column mr-6 mt-12" data-aos="fade-up">
+            <p class="title has-text-white has-text-weight-bold">
+              Add Astrum BOT To Your Server.
+            </p>
+            <p class="subtitle has-text-grey-light is-size-6 mt-3">
+              Astrum BOT is a multifunctional bot for Discord, offering a range of fun, entertainment, and utility
+              commands. Enhance your server's experience and engage your members with Astrum BOT.
+            </p>
+            <div class="buttons">
+              <a href="https://discord.com/oauth2/authorize?client_id=1111555652612018246&permissions=8&scope=bot"
+                class="button is-info">
+                <strong>Add to Discord</strong>
+              </a>
+            </div>
+          </div>
+          <div class="column mt-6" data-aos="fade-left">
+            <img class="image has-image-centered vert-move mt-4" src="assets/img/pfp.jpeg" alt="hero image"
+              style="width: 20rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-centered" data-tippy-content="Scroll Down">
+      <a href="#features"><i class="fa-solid fa-circle-chevron-down fa-lg vert-move2 has-text-white"></i></a>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Features Section Start -->
+  <section id="features" class="section mt-6">
+    <div class="has-text-centered">
+      <h1 class="title lined">Features</h1>
+      <div class="line line-center blurple"></div>
+    </div>
+
+    <!-- single feature start (Left) -->
+    <div class="single-feature">
+      <div class="columns mt-6">
+        <div class="column mr-6">
+          <h4 class="title">Text Generative <span class="blurple">AI</span></h4>
+          <p class="subtitle mt-3">
+            Utilize the built-in AI tool, powered by Google's Gemini AI, to generate responses to your questions simply
+            by pinging the bot.
+          </p>
+        </div>
+        <div class="column" data-aos="fade-left">
+          <img class="image has-image-centered" src="assets/img/features1.svg" alt="feature1 img"
+            style="width: 23rem;" />
+        </div>
+      </div>
+    </div>
+    <!-- single feature end (Left) -->
+
+    <!-- single feature start (Right) -->
+    <div class="single-feature">
+      <div class="columns mt-6">
+        <div class="column" data-aos="fade-right">
+          <img class="image has-image-centered" src="assets/img/features2.svg" alt="feature2 img"
+            style="width: 23rem;" />
+        </div>
+        <div class="column">
+          <h4 class="title">Fun Commands</h4>
+          <p class="subtitle mt-3">
+            Enjoy a variety of fun commands like memes, jokes, 8ball, and more, constantly updated to keep your server
+            entertaining.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- single feature end (Right) -->
+
+    <!-- single feature start (Left) -->
+    <div class="single-feature">
+      <div class="columns mt-6">
+        <div class="column mr-6">
+          <h4 class="title">Simple Moderation</h4>
+          <p class="subtitle mt-3">
+            Manage your server effectively with moderation commands such as ban, kick, mute, unmute, and more.
+          </p>
+        </div>
+        <div class="column" data-aos="fade-left">
+          <img class="image has-image-centered" src="assets/img/features3.svg" alt="feature3 img"
+            style="width: 23rem;" />
+        </div>
+      </div>
+    </div>
+    <!-- single feature end (Left) -->
+
+    <!-- single feature start (Right) -->
+    <div class="single-feature">
+      <div class="columns mt-6">
+        <div class="column" data-aos="fade-right">
+          <img class="image has-image-centered" src="assets/img/features4.svg" alt="feature4 img"
+            style="width: 23rem;" />
+        </div>
+        <div class="column">
+          <h4 class="title">Utility Commands</h4>
+          <p class="subtitle mt-3">
+            Stay organized with utility commands like time, weather, and reminders to keep track of your tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- single feature end (Right) -->
+  </section>
+  <!-- Features Section End -->
+
+  <!-- Screenshots Section Start -->
+  <section id="screenshots" class="section mt-6">
+    <div class="has-text-centered">
+      <h1 class="title lined">Screenshots</h1>
+      <div class="line line-center blurple"></div>
+    </div>
+
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <div id="caption"></div>
+      <div class="modal-buttons">
+        <button class="button is-link prev-button" id="prevBtn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="button is-link next-button" id="nextBtn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+
+
+
+    <!-- Gallery Start -->
+    <div class="gallery mt-6">
+      <div class="is-flex is-justify-content-center">
+        <div class="columns is-mobile">
+          <div class="column mr-2">
+            <div class="screenshot-wrapper">
+              <img src="assets/img/screenshot1.png" alt="" class="screenshot"
+                onclick="openModal('assets/img/screenshot1.png', '')">
+            </div>
+          </div>
+          <div class="column mr-2">
+            <div class="screenshot-wrapper">
+              <img src="assets/img/screenshot2.png" alt="" class="screenshot"
+                onclick="openModal('assets/img/screenshot2.png', '')">
+            </div>
+          </div>
+          <div class="column mr-2">
+            <div class="screenshot-wrapper">
+              <img src="assets/img/screenshot3.png" alt="" class="screenshot"
+                onclick="openModal('assets/img/screenshot3.png', '')">
+            </div>
+          </div>
+          <div class="column">
+            <div class="screenshot-wrapper">
+              <img src="assets/img/screenshot4.png" alt="" class="screenshot"
+                onclick="openModal('assets/img/screenshot4.png', '')">
+            </div>
+          </div>
+          <!-- Add more screenshots here -->
+        </div>
+      </div>
+    </div>
+    <!-- Gallery End -->
+
+
+
+
+
+  </section>
+  <!-- Screenshots Section End -->
+
+
+  <!-- Commands Section Start -->
+  <section class="section mt-6">
+    <div class="columns">
+      <div class="column has-text-centered">
+        <p class="title has-text-weight-bold">
+          Bot Commands
+        </p>
+        <a href="commands.html" class="button is-blurple is-medium">
+          <strong>Command List</strong>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Commands Section End -->
+
+
+  <!-- Footer Section Start -->
+  <footer class="footer bg-base">
+    <div class="content has-text-centered has-text-white">
+      <div class="mb-2">
+        <a href="https://discord.gg/NwWze8kw" class="has-text-white" target="_blank">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+        &nbsp; &nbsp;
+        <a href="https://github.com/spreadSheets600" class="has-text-white" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>
+        <span class="has-text-weight-bold" style="font-size: 1.4rem;">Astrum BOT Bot</span>
+        <br />
+        &copy; <span id="cp-year"></span> Copyright <br>SpreadSheets600 <br />
+      </p>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
